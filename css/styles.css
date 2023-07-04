@@ -716,7 +716,22 @@ transform: translateX(-50%) translateY(-50%);
   fill: #ffffff;
     }
 
-/* .modal-btn:hover {
-        fill: #ffffff;
-}
-.modal-icon  */
+    .modal-caption {
+        display: block;
+        width: 360px;
+        color: var(--secondary-black-color);
+text-align: center;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.32px;
+    }
+    .modal-form {
+    }
+    .modal-form-field {
+    }
+    .modal-form-label {
+    }
+    .modal-form-input {
+    }
+    .btn_form {
+    }
