@@ -493,6 +493,7 @@
             digital marketing & growth solutions.
           </p>
         </div>
+        
         <div class="footer-media">
           <p class="media">Social media</p>
           <ul class="list-media list">
@@ -528,20 +529,21 @@
         </div>
 
         <div class="footer-bottom">
+          <p class="footer-bottom-text">Subscribe</p>
 
-<p class="footer-bottom-text">Subscribe</p>
-
-<form class="Subscribe-form">
-  <input class="Subscribe-input" type="email" placeholder="E-mail">
-  <button class="Subscribe-btn" type="submit">Subscribe
-    <svg class="Subscribe-icon" class="" width="24" height="24">
-      <use href="./images/icons.svg#Frame"></use>
-    </svg>
-  </button>
-</form>
-
+          <form class="Subscribe-form" name="Subscribe_form">
+            <label class="Subscribe-form-label">
+              <input class="Subscribe-form-input" type="email" placeholder="E-mail"
+              name="Subscribe_form-email" /></label
+            >
+            <button class="Subscribe-form-btn" type="submit">
+              Subscribe
+              <svg class="Subscribe-form-icon" class="" width="24" height="24">
+                <use href="./images/icons.svg#Frame"></use>
+              </svg>
+            </button>
+          </form>
         </div>
-
       </div>
     </footer>
     <!-- modal window -->
@@ -557,7 +559,7 @@
           >Leave your contacts and we will call you back</strong
         >
 
-        <form class="modal-form">
+        <form class="modal-form" name="review_form">
           <label for="user_name" class="modal-form-field"
             ><span class="modal-form-label">Name</span>
             <input class="modal-form-input" type="text" mane="user_name" />
@@ -593,8 +595,11 @@
           </label>
 
           <label class="modal-form-agreement">
-            <input class="modal-form-checkbox visually-hidden" type="checkbox" />
-            <span  class="modal-form-custom-checkbox">
+            <input
+              class="modal-form-checkbox visually-hidden"
+              type="checkbox"
+            />
+            <span class="modal-form-custom-checkbox">
               <svg class="modal-form-checkbox-icon" width="10" height="8">
                 <use href=""></use>
               </svg>
