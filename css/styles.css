@@ -862,7 +862,7 @@ position: absolute;
     line-height: 1.17;
     letter-spacing: 0.48px;
      
-color: rgba(46, 47, 66, 0.40);
+    color: rgba(46, 47, 66, 0.4);
 background-color: transparent;
 
 resize: none;
@@ -889,6 +889,10 @@ resize: none;
     display: flex;
     align-items: center;
 gap: 8px;
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.04em;
+color: var(--svg-gray-color)
 
 }
 
