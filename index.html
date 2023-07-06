@@ -548,6 +548,7 @@
     </footer>
     <!-- modal window -->
     <div class="backdrop is-hidden" data-modal>
+      <!-- дів модального вікна -->
       <div class="modal">
         <button class="modal-btn" type="button" data-modal-close>
           <svg class="modal-icon" width="8" height="8">
@@ -555,10 +556,14 @@
           </svg>
         </button>
 
+        <!-- У div який виступає контейнером для модального вікна, другим дочірнім елементом додано параграф -->
         <p class="modal-caption" >Leave your contacts and we will call you back</p >
 
+          <!-- У div який виступає контейнером для модального вікна, третім дочірнім елементом додано форму -->
         <form class="modal-form" name="review_form">
+          <!-- Першим дочірнім елементом форми є div -->
           <div class="modal-form-container">
+           
             <label class="modal-form-field"
               ><span class="modal-form-label">Name</span>
               <input class="modal-form-input" type="text" name="user_name"/>
@@ -566,6 +571,7 @@
                 <use href="./images/icons.svg#person"></use>
               </svg>
             </label>
+
             <label class="modal-form-field"
               ><span class="modal-form-label">Phone</span>
               <input class="modal-form-input" type="tel" name="user_tel" />
