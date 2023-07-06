@@ -796,9 +796,11 @@ margin-bottom: 16px;
     .modal-form {
 
     }
+    /* Для div у класі заданий стиль margin-bottom: 8px; для визначення відступів */
     .modal-form-container {
+        margin-bottom: 8px;
     }
-    .modal-form-field {
+        .modal-form-field {
         display: block;
         margin-bottom: 8px;
         
