@@ -928,6 +928,8 @@ letter-spacing: 0.48px;
     color: var(--primary-accent-color);
 }
     .btn_form {
+        display: block;
+        min-width: 169px;
         color: var(--primary-white-color);
 text-align: center;        
 font-weight: 500;
