@@ -908,8 +908,9 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 fill: transparent; 
 }
 .modal-form-checkbox:checked + .modal-form-custom-checkbox {
-    border-color: var(--hover-color);
-    background-color: var(--hover-color);
+        background-color: var(--hover-color);
+    border: none;
+    fill: var(--secondary-bgc)
 }
 .modal-form-checkbox-icon {
     opacity: 0;
