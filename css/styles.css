@@ -666,7 +666,7 @@ margin-bottom: 16px;
 .subscribe-form-label {
 }
 .subscribe-form-input {
-    width: 264px;
+     width: 264px;
 height: 40px;
 padding: 8px 16px;
 
@@ -678,7 +678,7 @@ background-color: transparent;
 
 color: var(--primary-white-color);
 font-size: 12px;
-line-height: 1,5;
+line-height: 1.5;
 letter-spacing: 0.48px;
 outline: transparent;
 }
