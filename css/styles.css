@@ -800,6 +800,9 @@ margin-bottom: 16px;
     .modal-form-container {
         margin-bottom: 8px;
     }
+    .modal-form-container-textarea {
+        margin-bottom: 16px;
+    }
             .modal-form-field {
         display: block;
         margin-bottom: 4px;
