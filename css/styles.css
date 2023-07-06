@@ -647,7 +647,18 @@ fill: #f4f4fd;
 .footer-media {
    
 }
+.footer-bottom {
 
+}
+.footer-bottom-text {
+
+}
+.Subscribe-input {
+}
+.Subscribe-btn {
+}
+.Subscribe-icon {
+}
 /* modal window */
 .backdrop {
     position: fixed;
@@ -851,5 +862,6 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 padding: 16px 32px;
 width: 169px;
 height: 56px;
+
 
     }
