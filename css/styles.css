@@ -673,11 +673,12 @@ padding: 8px 16px;
     border-radius: 4px;
 border: 1px solid var(--primary-white-color);
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 background-color: transparent;
 
 color: var(--primary-white-color);
 font-size: 12px;
-line-height: 2;
+line-height: 1,5;
 letter-spacing: 0.48px;
 outline: transparent;
 }
@@ -685,10 +686,11 @@ outline: transparent;
 color: currentColor;
 }
 .subscribe-form-btn {
+    min-width: 165px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 16px;
+    /* gap: 16px; */
     padding: 8px 24px;
     
     background-color: var(--primary-accent-color);
@@ -699,8 +701,11 @@ color: currentColor;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.64px;
+
+cursor: pointer;
 }
 .subscribe-form-icon {
+margin-left: 16px;
 }
 /* modal window */
 .backdrop {
