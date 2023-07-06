@@ -857,6 +857,11 @@ position: absolute;
     height: 120px;
     padding: 8px 16px;
     outline: transparent;
+
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.48px;
+    color: var(--svg-gray-color)
  
 color: rgba(46, 47, 66, 0.40);
 background-color: transparent;
@@ -886,10 +891,6 @@ resize: none;
     align-items: center;
 gap: 8px;
 
-font-size: 12px;
-line-height: 1.17;
-letter-spacing: 0.48px;
-color: var(--svg-gray-color)
 }
 
 .modal-form-custom-checkbox {
