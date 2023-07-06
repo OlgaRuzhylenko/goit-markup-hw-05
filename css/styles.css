@@ -804,8 +804,6 @@ margin-bottom: 16px;
         display: block;
         margin-bottom: 4px;
         
-        position: relative;
-
         font-size: 12px;
         line-height: 1.17;
         letter-spacing: 0.48px;
@@ -813,6 +811,9 @@ margin-bottom: 16px;
     }
     .modal-form-label {
         display: block;
+                    }
+.modal-form-input-div {
+    position: relative;
                     }
 .modal-form-input {
      width: 100%;
