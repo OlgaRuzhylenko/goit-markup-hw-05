@@ -859,14 +859,17 @@ position: absolute;
     outline: transparent;
 
     font-size: 12px;
-line-height: 1.2;
+line-height: 1.17;
 letter-spacing: 0.48px;
 color: rgba(46, 47, 66, 0.40);
+background-color: transparent;
 
 resize: none;
   
     border-radius: 4px;
     border: 1px solid rgba(46, 47, 66, 0.40);
+
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
        }
 
 .modal-form-comment::placeholder {
