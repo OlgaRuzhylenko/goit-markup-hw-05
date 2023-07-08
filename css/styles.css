@@ -901,6 +901,7 @@ fill: transparent;
     opacity: 1;
 }
 .modal-form-desk {
+    display: inline-block;
     color: #8E8F99;
 font-size: 12px;
 line-height: 1.7;
